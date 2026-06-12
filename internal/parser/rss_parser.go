@@ -25,3 +25,13 @@ func ParseRSS(data []byte) (*RSS, error) {
 
 	return &rss, nil
 }
+func ParseRSS(data []byte) (*RSS, error) {
+	var rss RSS
+
+	err := xml.Unmarshal(data, &rss)
+	if err != nil {
+		return nil, err
+	}
+
+	return &rss, nil
+}
