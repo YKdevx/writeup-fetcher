@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"writeup-fetcher/internal/fetcher"
-	"writeup-fetcher/internal/parser"
+	"github.com/YKdevx/writeup-fetcher/internal/fetcher"
+	"github.com/YKdevx/writeup-fetcher/internal/parser"
 )
 
 func main() {
